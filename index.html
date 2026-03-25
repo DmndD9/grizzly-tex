@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arcade AI Machine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="machine">
+
+  <!-- CHARACTER AREA -->
+ <div class="top"></div>
+  <div id="character" class="character">
+  <img src="artpart/background.png" class="background" alt="">
+  <img src="artpart/torso.png" class="torso" alt="">
+  <img src="artpart/head.png" class="head" alt="">
+  <img src="artpart/window.png" class="window" alt="">
+  <img src="artpart/door.png" class="door" alt="">
+  <img src="artpart/light.png" class="light" alt="">
+</div>
+  </div>
+<div id="coinHit"></div>
+<div id="speakerHit"></div>
+<div id="panelHit"></div>
+  <!-- LIGHT BULB -->
+  <div id="bulb" class="bulb"></div>
+
+  <!-- PANEL -->
+  <div id="panel" class="panel">
+    <p>DO NOT TOUCH</p>
+  </div>
+
+  <!-- INSIDE PANEL -->
+  <div id="inside" class="inside">
+    <p id="log">SYSTEM READY</p>
+  </div>
+
+  <!-- SCREEN -->
+  <div class="screen" id="screen">
+    <p id="status">Insert Coin</p>
+  </div>
+
+  <!-- SEARCH INPUT -->
+  <input id="searchInput" type="text" placeholder="Ask the machine something..." />
+
+  <!-- BUTTONS -->
+<button id="talkBtn">🎤 Talk</button>
+<button id="testSearchBtn">Ask the Machine</button>
+  <button id="coinBtn">Insert Coin</button>
+<div id="voiceBox">
+  <elevenlabs-convai agent-id="agent_0401km7entgzfdn8pbmw4bv98yt0"></elevenlabs-convai>
+</div>
+</div>
+
+<!-- ELEVENLABS WIDGET (correct place) -->
+
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
