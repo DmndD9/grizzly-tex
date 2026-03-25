@@ -171,8 +171,8 @@ elevenlabs-convai {
   left: 125px;
   top: 200px;
   cursor: pointer;
-  background: rgba(255, 0, 0, 0.35);
-  border: 2px solid yellow;
+  background: transparent;
+  border: none;
   z-index: 20;
 }
 
@@ -183,8 +183,8 @@ elevenlabs-convai {
   left: 255px;
   top: 200px;
   cursor: pointer;
-  background: rgba(255, 0, 0, 0.35);
-  border: 2px solid yellow;
+  background: transparent;
+  border: none;
   z-index: 20;
 }
 
@@ -195,7 +195,7 @@ elevenlabs-convai {
   left: 120px;
   top: 300px;
   cursor: pointer;
-  background: rgba(255, 0, 0, 0.35);
-  border: 2px solid yellow;
+  background: transparent;
+  border: none;
   z-index: 20;
 }
