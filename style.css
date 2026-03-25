@@ -168,42 +168,34 @@ elevenlabs-convai {
   position: absolute;
   width: 60px;
   height: 60px;
-  left: 120px;
-  top: 285px;
+  left: 140px;
+  top: 240px;
   cursor: pointer;
   background: rgba(255, 0, 0, 0.35);
   border: 2px solid yellow;
   z-index: 20;
-}
-#speakerHit {
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  left: 255px;
-  top: 275px;
-  cursor: pointer;
-  background: rgba(255, 0, 0, 0.35);
-  border: 2px solid yellow;
-  z-index: 20;
-}
-#speakerHit {
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  left: 255px;
-  top: 275px;
-  cursor: pointer;
-  background: rgba(255, 0, 0, 0.35);
-  border: 2px solid yellow;
-  z-index: 20;
-}
-.machine {
-  outline: 4px solid lime !important;
 }
 
-#coinHit,
-#speakerHit,
+#speakerHit {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 250px;
+  top: 240px;
+  cursor: pointer;
+  background: rgba(255, 0, 0, 0.35);
+  border: 2px solid yellow;
+  z-index: 20;
+}
+
 #panelHit {
-  background: rgba(255, 0, 0, 0.35) !important;
-  border: 2px solid yellow !important;
+  position: absolute;
+  width: 180px;
+  height: 80px;
+  left: 120px;
+  top: 310px;
+  cursor: pointer;
+  background: rgba(255, 0, 0, 0.35);
+  border: 2px solid yellow;
+  z-index: 20;
 }
