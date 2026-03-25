@@ -197,3 +197,13 @@ elevenlabs-convai {
   border: 2px solid yellow;
   z-index: 20;
 }
+.machine {
+  outline: 4px solid lime !important;
+}
+
+#coinHit,
+#speakerHit,
+#panelHit {
+  background: rgba(255, 0, 0, 0.35) !important;
+  border: 2px solid yellow !important;
+}
