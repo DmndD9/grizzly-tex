@@ -168,34 +168,32 @@ elevenlabs-convai {
   position: absolute;
   width: 60px;
   height: 60px;
-  left: 870px;
-  top: 405px;
+  left: 120px;
+  top: 285px;
   cursor: pointer;
- 
+  background: rgba(255, 0, 0, 0.35);
+  border: 2px solid yellow;
   z-index: 20;
 }
 #speakerHit {
   position: absolute;
   width: 70px;
   height: 70px;
-
-  left: 1000px;
-  top: 390px;
-
+  left: 255px;
+  top: 275px;
   cursor: pointer;
-
-  background: transparent;
-  border: none;
+  background: rgba(255, 0, 0, 0.35);
+  border: 2px solid yellow;
   z-index: 20;
 }
-#panelHit {
+#speakerHit {
   position: absolute;
-  width: 180px;
+  width: 70px;
   height: 70px;
-  left: 870px;
-  top: 490px;
+  left: 255px;
+  top: 275px;
   cursor: pointer;
-  background: transparent;
-border: none;
+  background: rgba(255, 0, 0, 0.35);
+  border: 2px solid yellow;
   z-index: 20;
 }
