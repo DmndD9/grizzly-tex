@@ -180,8 +180,8 @@ elevenlabs-convai {
   position: absolute;
   width: 70px;
   height: 70px;
-  left: 300px;
-  top: 50px;
+  left: 400px;
+  top: 100px;
   cursor: pointer;
   background: rgba(255, 0, 0, 0.35);
   border: 2px solid yellow;
