@@ -136,7 +136,7 @@ async function askMachine(queryOverride) {
   }
 
   isBusy = true;
-
+document.getElementById("thinkingLight").classList.add("on");
   const query = queryOverride || searchInput.value.trim() || "latest news about AI";
 
   inside.classList.add("open");
@@ -177,8 +177,9 @@ console.log("audio payload preview", data.audio?.slice(0, 40));
     log.innerText += "ERROR: request failed\n";
     console.error(error);
   } finally {
-    isBusy = false;
-  }
+  document.getElementById("thinkingLight").classList.remove("on");
+  isBusy = false;
+}
 }
 testSearchBtn.onclick = () => {
   askMachine();
