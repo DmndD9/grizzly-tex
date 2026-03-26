@@ -69,10 +69,10 @@ body {
 }
 .thinking-light {
   position: absolute;
-  width: 09px;
-  height: 09px;
-  left: 209px;
-  top: 237px;
+  width: 08px;
+  height: 08px;
+  left: 208px;
+  top: 236px;
   border-radius: 50%;
   background: rgba(0, 120, 255, 1);
 box-shadow: 0 0 18px rgba(0, 120, 255, 1);
