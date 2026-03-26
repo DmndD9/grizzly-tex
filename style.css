@@ -67,7 +67,28 @@ body {
 .light.on {
   opacity: 1;
 }
+.thinking-light {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 205px;
+  top: 250px;
+  border-radius: 50%;
+  background: rgba(80, 170, 255, 0.95);
+  box-shadow: 0 0 14px rgba(80, 170, 255, 0.9);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 25;
+}
 
+.thinking-light.on {
+  animation: thinkingBlink 0.7s infinite;
+}
+
+@keyframes thinkingBlink {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 1; }
+}
 /* BULB */
 .bulb {
   width: 20px;
